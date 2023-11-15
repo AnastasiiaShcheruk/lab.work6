@@ -12,6 +12,7 @@ int main()
     float Z, dob, y;
     cout << "Введіть y:\ny = ";
     cin >> y;
+    don = 1;
 //функція if
     if (pow(y,2)+3==0) {
         cout << "Помилка";
