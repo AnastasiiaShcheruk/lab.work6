@@ -16,6 +16,9 @@ int main()
     if (pow(y,2)+3==0) {
         cout << "Помилка";
     }
+    if (pow(y,2)+3==0) {
+        cout << "Помилка";
+    }
     for (int i = 1; i <= 5; i++) {
         dob *= i;
     }
