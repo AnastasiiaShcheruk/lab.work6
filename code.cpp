@@ -19,12 +19,6 @@ int main()
     for (int i = 1; i <= 5; i++) {
         dob *= i;
     }
-    if (pow(y,2)+3==0) {
-        cout << "Помилка";
-    }
-    for (int i = 1; i <= 5; i++) {
-        dob *= i;
-    }
     Z = (dob + 2 * cos(y)) / (pow(y, 2) + 3); 
     cout << setw(6) << "Z = " << setprecision(0) << Z;
 }
